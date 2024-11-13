@@ -1,0 +1,59 @@
+{
+  "Income": [
+    {
+      "id": "643c",
+      "source": "free",
+      "amount": "10000",
+      "date": "2024-11-04"
+    },
+    {
+      "id": "5e10",
+      "source": "Shop",
+      "amount": 10000,
+      "date": "2024-11-04"
+    },
+    {
+      "id": "13e9",
+      "source": "salary",
+      "amount": 5986,
+      "date": "2024-11-04"
+    }
+  ],
+  "Expenses": [
+    {
+      "id": "a630",
+      "Name": "Shirt",
+      "Category": "cloth",
+      "Amount": "500",
+      "Date": "2024-11-05"
+    },
+    {
+      "id": "cf8f",
+      "Name": "College Fee",
+      "Category": "education",
+      "Amount": 3000,
+      "Date": "2024-11-04"
+    },
+    {
+      "id": "f0c8",
+      "Name": "Grocery Items",
+      "Category": "grocery",
+      "Amount": 5000,
+      "Date": "2024-11-04"
+    },
+    {
+      "id": "7259",
+      "Name": "Jeans",
+      "Category": "cloth",
+      "Amount": 1000,
+      "Date": "2024-11-04"
+    },
+    {
+      "id": "3677",
+      "Name": "Cloth",
+      "Category": "cloth",
+      "Amount": 2000,
+      "Date": "2024-11-04"
+    }
+  ]
+}

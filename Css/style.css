@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+aside{
+        background-color: rgb(42, 165, 200);
+        width: 20vw;
+        height: 100vh;
+        position: fixed;
+}
+aside img{
+    width: 100px;
+}
+aside h1{
+    text-align: center;
+    padding-top: 50px;
+}
+aside h4{
+    padding: 0 0 30px 200px;
+    color: green;
+}
+sup{
+    font-size: 50px;
+}
+#side{
+    padding: 50px 0 0 50px ;
+    font-size: 25px;
+}
+#side a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+#side i{
+    color: black;
+    font-size: 25px;
+    
+}
+#side #db{
+    width: 40px;
+    height: 40px;
+}
+aside h3{
+     margin-top: 20px;
+}
+#nv h2:hover{
+    background-color: white;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px; 
+}
+
+#nv h3:hover{
+    background-color: white;
+    height: 50px;
+    padding: 10px 0 0 3px;
+    border-radius: 20px 0 0 20px; 
+}
+
+
+section{
+    background-color: aqua;
+    margin-left: 20vw;
+
+}
+header nav{
+    width: 80vw;
+    height: 10vh;
+    background-color: rgb(42, 165, 155);
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+}
+nav input{
+    padding: 11.8px;
+    width: 300px;
+    border-radius: 20px 0 0 20px ;
+    border: none;
+}
+#sch{
+    background-color: white;
+    width: 50px;
+    padding-bottom: 12.5px;
+    padding-top: 8px;
+    text-align: center;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
+header nav a{
+    color: black;
+}
+
+
+
+main{
+    position: absolute;
+    margin-top: 10vh;
+    width: 80vw;
+    min-height: 90vh;
+}
+
+
+
+
+/* Dashboard */
+
+#box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+#db-total{
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    padding-top: 10px;
+}
+#db-income{
+    background-color: burlywood;
+    width: 20%;
+    height: 100px;
+    padding-top: 10px;
+}
+#db-expenses{
+    background-color: red;
+    width: 20%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+#db-amt{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* chart */
+#b-chart img{
+    margin: 50px;
+    width: 90%;
+}
+
+
+
+
+
+
+
+#total-income{
+    margin: 40px 27vw 0 27vw;
+    background-color: green;
+    width: 26%;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+#income-amount{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+
+
+#budget{
+    background-color:burlywood;
+    width: 40vw;
+    margin: 30px 20vw 0 20vw;
+    padding: 15px 0 15px 0;
+}
+#budget h1{
+        text-align: center;
+}
+#ex-total{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#income-expenses{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+}
+#i-e-amount{
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+}
+#amt{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Income form */
+.ic-form{
+    background-color: chocolate;
+    margin: 20px;
+    font-size: 25px;
+    padding: 25px;
+}
+.ic-form input{
+    width: 200px;
+    height: 20px;
+    padding: 15px;
+}
+.ic-form button{
+        /* width: 100px; */
+        padding: 10px;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 50px;
+}
+
+
+/* Expenses form */
+#exp-form{
+   background-color: cadetblue;
+   /* width: 36vw; */
+   /* margin: 30px 22vw 0 22vw; */
+   margin: 20px;
+   /* display: flex; */
+   font-size: 25px;
+   padding: 10px;
+}
+#exp-form input{
+        width: 180px;
+        height: 20px;
+        padding: 15px;
+
+}
+#Catg{
+    width: 100px;
+    height: 30px;
+}
+#exp-form button{
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* income table */
+#table-data{
+        text-align: center; 
+        margin: 20px;
+        font-size: 25px;
+}
+
+
+/* ex table */
+#ex-tb-data{
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+
+/* tran data */
+#tra-data{
+   margin: 20px;
+   font-size: 30px;
+   text-align: center;
+   
+}
